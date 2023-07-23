@@ -6,6 +6,9 @@
 - clean: ['~']
 
 - link:
+    ~/Brewfile:
+      force: true
+      path: Brewfile
     ~/.zshrc:
       force: true
       path: .zshrc
