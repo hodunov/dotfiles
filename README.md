@@ -45,4 +45,5 @@ Resources that I used to make these dotfiles better:
 
 - [GitHub ❤ ~/](http://dotfiles.github.com/)
 - [Denys Dovhan's dotfiles](https://github.com/denysdovhan/dotfiles)
+- [Josh Medeski's dotfiles](https://github.com/joshmedeski/dotfiles)
 
