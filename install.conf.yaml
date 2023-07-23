@@ -15,6 +15,9 @@
     ~/.config/nvim/lua/custom:
       force: true
       path: .config/nvim/lua/custom/
+    ~/.config/alacritty/alacritty.yml:
+      force: true
+      path: .config/alacritty/alacritty.yml
 
 
 - shell:
