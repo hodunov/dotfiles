@@ -1,0 +1,22 @@
+- defaults:
+    link:
+      create: true
+      relink: true
+
+- clean: ['~']
+
+- link:
+    ~/.zshrc:
+      force: true
+      path: .zshrc
+    ~/lib:
+      force: true
+      path: lib/
+    ~/.config/nvim/lua/custom:
+      force: true
+      path: .config/nvim/lua/custom/
+
+
+- shell:
+    - [git submodule update --init --recursive, Installing submodules]
+
