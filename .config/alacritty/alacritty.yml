@@ -19,7 +19,10 @@ window:
   opacity: 0.98
   padding:
     x: 25
-    y: 20
+    y: 25
+  position:
+    x: 700
+    y: 440
 
 font:
   normal:
