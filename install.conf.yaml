@@ -21,6 +21,9 @@
     ~/.config/alacritty/alacritty.yml:
       force: true
       path: .config/alacritty/alacritty.yml
+    ~/.config/sheldon/plugins.toml:
+      force: true
+      path: .config/sheldon/plugins.toml
 
 
 - shell:
