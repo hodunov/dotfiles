@@ -74,8 +74,8 @@ fi
 # Django
 alias drs="python manage.py runserver"
 alias dj="python manage.py"
-alias dt="python manage.py test"
-alias dsp="python manage.py shell_plus"
+alias dt="python manage.py test --verbosity 2"
+alias dsp="python manage.py shell_plus --ipython"
 alias dm="python manage.py migrate"
 alias dmm="python manage.py makemigrations"
 
