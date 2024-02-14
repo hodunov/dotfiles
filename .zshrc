@@ -100,7 +100,8 @@ if ! zgenom saved; then
     zgenom load hlissner/zsh-autopair
     zgenom load zsh-users/zsh-syntax-highlighting
     zgenom load zsh-users/zsh-autosuggestions
-    # zgenom load MichaelAquilina/zsh-autoswitch-virtualenv
+    zgenom load MichaelAquilina/zsh-autoswitch-virtualenv
+    zgenom load agkozak/zsh-z
 
     # Files
     zgenom load $DOTFILES/lib
