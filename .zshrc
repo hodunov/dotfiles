@@ -164,6 +164,11 @@ unset __conda_setup
 
 export PATH="~/.config/bin:$PATH"
 
+# Source local configuration
+if [[ -f "$HOME/.zshlocal" ]]; then
+  source "$HOME/.zshlocal"
+fi
+
 [[ "$TERM_PROGRAM" == "CodeEditApp_Terminal" ]] && . "/Applications/CodeEdit.app/Contents/Resources/codeedit_shell_integration.zsh"
 
 # # Fig post block. Keep at the bottom of this file.
