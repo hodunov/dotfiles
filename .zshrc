@@ -85,7 +85,7 @@ if ! zgenom saved; then
     zgenom ohmyzsh plugins/common-aliases
     zgenom ohmyzsh plugins/docker
     zgenom ohmyzsh plugins/pyenv
-    zgenom ohmyzsh plugins/pipenv
+    #  zgenom ohmyzsh plugins/pipenv
     zgenom ohmyzsh plugins/pip
     zgenom ohmyzsh plugins/python
     zgenom ohmyzsh plugins/virtualenv
@@ -94,7 +94,6 @@ if ! zgenom saved; then
     zgenom load chriskempson/base16-shell
     zgenom load djui/alias-tips
     zgenom load agkozak/zsh-z
-    zgenom load marzocchi/zsh-notify
     zgenom load hlissner/zsh-autopair
     zgenom load zsh-users/zsh-syntax-highlighting
     zgenom load zsh-users/zsh-autosuggestions
