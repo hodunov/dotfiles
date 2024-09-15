@@ -29,6 +29,8 @@ _extend_path() {
 
 # Add custom bin to $PATH
 _extend_path "$HOME/.local/bin"
+_extend_path "$HOME/.cargo/bin"
+_extend_path "$HOME/.config/bin"
 _extend_path "$DOTFILES/bin"
 _extend_path "$HOME/.npm-global/bin"
 _extend_path "$HOME/.bun/bin"
@@ -170,3 +172,13 @@ fi
 
 # # Fig post block. Keep at the bottom of this file.
 # [[ -f "$HOME/.fig/shell/zshrc.post.zsh" ]] && builtin source "$HOME/.fig/shell/zshrc.post.zsh"
+
+eval "$(atuin init zsh)"
+
+
+# . "$HOME/.cargo/env"
+#
+# append completions to fpath
+fpath=(${ASDF_DIR}/completions $fpath)
+# initialise completions with ZSH's compinit
+autoload -Uz compinit && compinit

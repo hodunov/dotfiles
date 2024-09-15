@@ -18,7 +18,7 @@ if _exists trash; then
 fi
 
 # Just bcoz clr shorter than clear
-alias clr='clear'
+alias c="clear"
 
 # Go to the /home/$USER (~) directory and clears window of your terminal
 alias q="~ && clear"
@@ -86,3 +86,8 @@ alias py="python"
 alias py3="python3"
 alias ipython="python3 -m IPython"
 
+
+# Lazygit
+alias lgit="lazygit"
+# Lazydocker
+alias ldocker="lazydocker"
